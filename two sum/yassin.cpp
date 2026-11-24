@@ -5,7 +5,7 @@ public:
         vector<int> copie = nums;
         sort(copie.begin(), copie.end());
 
-        int m = 1;
+        int se = 1;
         int a, b;
 
         for (int i = 0; i < copie.size(); i++) {
